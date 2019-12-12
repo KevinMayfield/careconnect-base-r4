@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyVerificationStatus-1> a fhir:ValueSet;
+<https://hl7.org.uk/fhir/ValueSet/CareConnect-AllergyVerificationStatus-1> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CareConnect-AllergyVerificationStatus-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AllergyIntoleranceVerificationStatus</h2><div><p>Assertion about certainty associated with a propensity, or potential risk, of a reaction to the identified substance.</p>\n</div><p><b>Copyright Statement:</b> Copyright © HL7.org 2011+</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/STU3/codesystem-allergy-verification-status.html\"><code>http://hl7.org/fhir/allergy-verification-status</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/STU3/codesystem-allergy-verification-status.html#allergy-verification-status-unconfirmed\">unconfirmed</a></td><td>Unconfirmed</td><td>A low level of certainty about the propensity for a reaction to the identified substance.</td></tr><tr><td><a href=\"http://hl7.org/fhir/STU3/codesystem-allergy-verification-status.html#allergy-verification-status-confirmed\">confirmed</a></td><td>Confirmed</td><td>A high level of certainty about the propensity for a reaction to the identified substance, which may include clinical evidence by testing or rechallenge.</td></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>AllergyIntoleranceVerificationStatus</h2>\n         <div>\n            <p>Assertion about certainty associated with a propensity, or potential risk, of a reaction to the identified substance.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> Copyright © HL7.org 2011+\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include these codes as defined in \n               <a href=\"http://hl7.org/fhir/STU3/codesystem-allergy-verification-status.html\">\n                  <code>http://hl7.org/fhir/allergy-verification-status</code>\n               </a>\n               <table class=\"none\">\n                  <tr>\n                     <td style=\"white-space:nowrap\">\n                        <b>Code</b>\n                     </td>\n                     <td>\n                        <b>Display</b>\n                     </td>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://hl7.org/fhir/STU3/codesystem-allergy-verification-status.html#allergy-verification-status-unconfirmed\">unconfirmed</a>\n                     </td>\n                     <td>Unconfirmed</td>\n                     <td>A low level of certainty about the propensity for a reaction to the identified substance.</td>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://hl7.org/fhir/STU3/codesystem-allergy-verification-status.html#allergy-verification-status-confirmed\">confirmed</a>\n                     </td>\n                     <td>Confirmed</td>\n                     <td>A high level of certainty about the propensity for a reaction to the identified substance, which may include clinical evidence by testing or rechallenge.</td>\n                  </tr>\n               </table>\n            </li>\n         </ul>\n      </div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-map" ];
-     fhir:Extension.valueReference [
-       fhir:link <https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergyVerificationStatus-1>;
-       fhir:Reference.reference [ fhir:value "https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergyVerificationStatus-1" ]
+     fhir:Extension.valueCanonical [
+       fhir:value "https://hl7.org.uk/fhir/ConceptMap/CareConnect-AllergyVerificationStatus-1";
+       fhir:link <https://hl7.org.uk/fhir/ConceptMap/CareConnect-AllergyVerificationStatus-1>
      ]
   ], [
      fhir:index 1;
@@ -36,17 +36,17 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status" ];
      fhir:Extension.valueString [ fhir:value "Informative" ]
   ];
-  fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyVerificationStatus-1"];
+  fhir:ValueSet.url [ fhir:value "https://hl7.org.uk/fhir/ValueSet/CareConnect-AllergyVerificationStatus-1"];
   fhir:ValueSet.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.4.642.3.115" ]
   ];
-  fhir:ValueSet.version [ fhir:value "3.0.0"];
+  fhir:ValueSet.version [ fhir:value "4.0.0"];
   fhir:ValueSet.name [ fhir:value "AllergyIntoleranceVerificationStatus"];
   fhir:ValueSet.status [ fhir:value "active"];
   fhir:ValueSet.date [ fhir:value "2017-04-18T22:44:47+01:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "HL7 UK"];
+  fhir:ValueSet.publisher [ fhir:value "INTEROPen"];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -83,7 +83,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergyVerificationStatus-1.ttl> a owl:Ontology;
+<https://hl7.org.uk/fhir/ValueSet/CareConnect-AllergyVerificationStatus-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

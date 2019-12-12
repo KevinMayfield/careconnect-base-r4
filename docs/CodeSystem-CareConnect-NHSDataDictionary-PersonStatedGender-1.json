@@ -3,7 +3,7 @@
   "id": "CareConnect-NHSDataDictionary-PersonStatedGender-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NHS Data Model and Dictionary Person Stated Gender Code</h2><div><p>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CareConnect-NHSDataDictionary-PersonStatedGender-1-1\"> </a></td><td>Male</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CareConnect-NHSDataDictionary-PersonStatedGender-1-2\"> </a></td><td>Female</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"CareConnect-NHSDataDictionary-PersonStatedGender-1-9\"> </a></td><td>Indeterminate (unable to be classified as either male or female)</td><td/></tr><tr><td style=\"white-space:nowrap\">X<a name=\"CareConnect-NHSDataDictionary-PersonStatedGender-1-X\"> </a></td><td>Not Known (not recorded)</td><td/></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>NHS Data Model and Dictionary Person Stated Gender Code</h2>\n         <div>\n            <p>The gender of a Person. Person Stated Gender Code is self declared or inferred by observation for those unable to declare their Person Stated Gender.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> Copyright © 2016 HL7 UK\n         </p>\n         <p>This code system https://hl7.org.uk/fhir/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1 defines the following codes:</p>\n         <table class=\"codes\">\n            <tr>\n               <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n               </td>\n               <td>\n                  <b>Display</b>\n               </td>\n               <td>\n                  <b>Definition</b>\n               </td>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">1\n                  <a name=\"CareConnect-NHSDataDictionary-PersonStatedGender-1-1\"> </a>\n               </td>\n               <td>Male</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">2\n                  <a name=\"CareConnect-NHSDataDictionary-PersonStatedGender-1-2\"> </a>\n               </td>\n               <td>Female</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">9\n                  <a name=\"CareConnect-NHSDataDictionary-PersonStatedGender-1-9\"> </a>\n               </td>\n               <td>Indeterminate (unable to be classified as either male or female)</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">X\n                  <a name=\"CareConnect-NHSDataDictionary-PersonStatedGender-1-X\"> </a>\n               </td>\n               <td>Not Known (not recorded)</td>\n               <td/>\n            </tr>\n         </table>\n      </div>"
   },
   "extension": [
     {
@@ -11,12 +11,12 @@
       "valueUri": "http://www.datadictionary.nhs.uk/data_dictionary/attributes/p/person/person_stated_gender_code_de.asp?shownav=1"
     }
   ],
-  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1",
-  "version": "3.0.0",
+  "url": "https://hl7.org.uk/fhir/CodeSystem/CareConnect-NHSDataDictionary-PersonStatedGender-1",
+  "version": "4.0.0",
   "name": "NHS Data Model and Dictionary Person Stated Gender Code",
   "status": "active",
   "date": "2017-08-21T13:00:00+01:00",
-  "publisher": "HL7 UK",
+  "publisher": "INTEROPen",
   "contact": [
     {
       "telecom": [

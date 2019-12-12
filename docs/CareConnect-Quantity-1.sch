@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Quantity</sch:title>
     <sch:rule context="f:Quantity">
-      <sch:assert test="count(f:extension[@url = 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ValueApproximation-1']) &lt;= 1">extension with URL = 'https://fhir.hl7.org.uk/STU3/StructureDefinition/Extension-CareConnect-ValueApproximation-1': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://hl7.org.uk/fhir/StructureDefinition/Extension-CareConnect-ValueApproximation-1']) &lt;= 1">extension with URL = 'https://hl7.org.uk/fhir/StructureDefinition/Extension-CareConnect-ValueApproximation-1': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>

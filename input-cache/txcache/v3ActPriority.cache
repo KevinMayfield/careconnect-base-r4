@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/v3/ActPriority",
+  "code" : "R"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/v3/ActPriority\" is not known (encountered paired with code = \"R\"); The code provided (http://hl7.org/fhir/v3/ActPriority#R) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/v3/ActPriority",
+  "code" : "R"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/v3/ActPriority\" is not known (encountered paired with code = \"R\"); The code provided (http://hl7.org/fhir/v3/ActPriority#R) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

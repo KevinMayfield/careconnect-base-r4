@@ -5,13 +5,14 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/Practitioner/practitioner-3> a fhir:Practitioner;
+<https://hl7.org.uk/fhir/Practitioner/practitioner-3> a fhir:Practitioner;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "practitioner-3"];
   fhir:Resource.meta [
      fhir:Meta.profile [
        fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1";
-       fhir:index 0
+       fhir:index 0;
+       fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1>
      ]
   ];
   fhir:DomainResource.text [
@@ -63,7 +64,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/Practitioner/practitioner-3.ttl> a owl:Ontology;
+<https://hl7.org.uk/fhir/Practitioner/practitioner-3.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

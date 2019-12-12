@@ -3,14 +3,14 @@
   "id": "CareConnect-RegistrationStatus-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Registration Status</h2><div><p>A CodeSystem that identifies the status of registration for a patient at the healthcare organisation.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"CareConnect-RegistrationStatus-1-A\"> </a></td><td>Active</td><td/></tr><tr><td style=\"white-space:nowrap\">D<a name=\"CareConnect-RegistrationStatus-1-D\"> </a></td><td>Deduction Pending</td><td/></tr><tr><td style=\"white-space:nowrap\">I<a name=\"CareConnect-RegistrationStatus-1-I\"> </a></td><td>Inactive</td><td/></tr><tr><td style=\"white-space:nowrap\">R<a name=\"CareConnect-RegistrationStatus-1-R\"> </a></td><td>Registration Pending</td><td/></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Registration Status</h2>\n         <div>\n            <p>A CodeSystem that identifies the status of registration for a patient at the healthcare organisation.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> Copyright © 2016 HL7 UK\n         </p>\n         <p>This code system https://hl7.org.uk/fhir/CodeSystem/CareConnect-RegistrationStatus-1 defines the following codes:</p>\n         <table class=\"codes\">\n            <tr>\n               <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n               </td>\n               <td>\n                  <b>Display</b>\n               </td>\n               <td>\n                  <b>Definition</b>\n               </td>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">A\n                  <a name=\"CareConnect-RegistrationStatus-1-A\"> </a>\n               </td>\n               <td>Active</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">D\n                  <a name=\"CareConnect-RegistrationStatus-1-D\"> </a>\n               </td>\n               <td>Deduction Pending</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">I\n                  <a name=\"CareConnect-RegistrationStatus-1-I\"> </a>\n               </td>\n               <td>Inactive</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">R\n                  <a name=\"CareConnect-RegistrationStatus-1-R\"> </a>\n               </td>\n               <td>Registration Pending</td>\n               <td/>\n            </tr>\n         </table>\n      </div>"
   },
-  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-RegistrationStatus-1",
-  "version": "3.0.0",
+  "url": "https://hl7.org.uk/fhir/CodeSystem/CareConnect-RegistrationStatus-1",
+  "version": "4.0.0",
   "name": "Care Connect Registration Status",
   "status": "draft",
   "date": "2017-08-01T01:00:00+01:00",
-  "publisher": "HL7 UK",
+  "publisher": "INTEROPen",
   "contact": [
     {
       "telecom": [

@@ -1,11 +1,11 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
    <id value="Careconnect-Base"></id>
-   <url value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/uk-base"></url>
-   <version value="3.0.0"/>
+   <url value="https://hl7.org.uk/fhir/ImplementationGuide/uk-base"></url>
+   <version value="4.0.0"></version>
    <name value="CareConnect Implementation Guide"></name>
-   <title value="INTEROPen CareConnect Base STU3 Implementation Guide"></title>
+   <title value="INTEROPen CareConnect Base R4 Implementation Guide"></title>
    <status value="draft"></status>
-   <publisher value="HL7 UK"></publisher>
+   <publisher value="INTEROPen"></publisher>
    <contact>
       <telecom>
          <!-- Or whatever URL and/or email address(es) are appropriate -->
@@ -13,7 +13,7 @@
          <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
       </telecom>
    </contact>
-   <description value="Care Connect STU3 Base Implementation Guide"></description>
+   <description value="Care Connect Base R4 Implementation Guide"></description>
    <jurisdiction>
       <!-- This will drive SNOMED release used -->
       <coding>
@@ -21,9 +21,9 @@
          <code value="826"></code>
       </coding>
    </jurisdiction>
-   <packageId value="careconnect.stu3.base"></packageId>
+   <packageId value="careconnect.base.r4"></packageId>
    <!-- This is whatever FHIR version the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
-   <fhirVersion value="3.0.2"></fhirVersion>
+   <fhirVersion value="4.0.1"></fhirVersion>
    <definition>
       <grouping id="uk-base">
          <name value="HL7 UK Base Profiles"></name>
@@ -53,7 +53,7 @@
          <name value="UK Examples"></name>
          <description value="These are example instances that show what data produced and consumed by systems conforming with this implementation guide might look like"></description>
       </grouping>
-     <!-- <grouping id="uk-capability">
+      <!-- <grouping id="uk-capability">
          <name value="Capability Statement"></name>
          <description value="Minimal recommended Capability Statement for UK RESTful implementations"></description>
       </grouping> -->
@@ -73,7 +73,7 @@
          </reference>
          <name value="DocumentReference example"></name>
          <description value="Level 2 Example"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-DocumentReference-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-DocumentReference-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -82,7 +82,7 @@
          </reference>
          <name value="Encounter admission example"></name>
          <description value="Hospital Inpatient Admission"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -91,7 +91,7 @@
          </reference>
          <name value="Encounter transfer example"></name>
          <description value="Hospital Inpatient Transfer"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -100,7 +100,7 @@
          </reference>
          <name value="Encounter emergency example"></name>
          <description value="Hospital emergency encounter"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Encounter-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -109,7 +109,7 @@
          </reference>
          <name value="Location example"></name>
          <description value="Hospital Emergency Department"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Location-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -118,7 +118,7 @@
          </reference>
          <name value="Observation example"></name>
          <description value="Level 3 Example"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Observation-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Observation-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -127,7 +127,7 @@
          </reference>
          <name value="Organization GP Surgery example"></name>
          <description value="GP Surgery"></description>
-         <exampleBoolean value="true"/>
+         <exampleBoolean value="true"></exampleBoolean>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -136,7 +136,7 @@
          </reference>
          <name value="Organization CCG example"></name>
          <description value="Clinical Commissioning Group"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -145,7 +145,7 @@
          </reference>
          <name value="Organization NHS Trust example"></name>
          <description value="NHS Hospital Trust"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Organization-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -154,7 +154,7 @@
          </reference>
          <name value="Patient example"></name>
          <description value="Level 2 Example"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Patient-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -163,7 +163,7 @@
          </reference>
          <name value="Practitioner example"></name>
          <description value="General Practitioner"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Practitioner-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
       <resource>
@@ -172,10 +172,9 @@
          </reference>
          <name value="Practitioner example"></name>
          <description value="Hospital Consultant"></description>
-         <exampleCanonical value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"></exampleCanonical>
+         <exampleCanonical value="https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Practitioner-1"></exampleCanonical>
          <groupingId value="uk-examples"></groupingId>
       </resource>
-
       <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ACVPU-1"></reference>
@@ -323,7 +322,7 @@
          <name value="ext-CareSettingType-1"></name>
          <groupingId value="uk-ext"></groupingId>
       </resource>
-    <!--  <resource>
+      <!--  <resource>
          <reference>
             <reference value="ValueSet/CareConnect-ClinicalDisciplines-1"></reference>
          </reference>
@@ -589,7 +588,7 @@
          <name value="InspiredOxygen-Observation-1"></name>
          <groupingId value="uk-news2"></groupingId>
       </resource>
- <!--     <resource>
+      <!--     <resource>
          <reference>
             <reference value="ValueSet/CareConnect-InterpretationCode-1"></reference>
          </reference>
@@ -1606,7 +1605,6 @@
          <name value="uk-gmc-number"></name>
          <groupingId value="uk-ns"></groupingId>
       </resource>
-
       <resource>
          <reference>
             <reference value="ConceptMap/CareConnect-PersonNameType-1"></reference>
@@ -1649,6 +1647,7 @@
          <name value="cm-MaritalStatus-1"></name>
          <groupingId value="uk-cm"></groupingId>
       </resource>
+     
       <!-- END OF EXAMPLES
 
       THE FOLLOWING RESOURCES ARE AUTOMATICALLY GENERATED -->

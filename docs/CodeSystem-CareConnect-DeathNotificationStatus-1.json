@@ -3,14 +3,14 @@
   "id": "CareConnect-DeathNotificationStatus-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Death Notification Status</h2><div><p>A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS).</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DeathNotificationStatus-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"CareConnect-DeathNotificationStatus-1-1\"> </a></td><td>Informal - death notice received via an update from a local NHS Organisation such as GP or Trust</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"CareConnect-DeathNotificationStatus-1-2\"> </a></td><td>Formal - death notice received from Registrar of Deaths</td><td/></tr><tr><td style=\"white-space:nowrap\">U<a name=\"CareConnect-DeathNotificationStatus-1-U\"> </a></td><td>Removed</td><td/></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Death Notification Status</h2>\n         <div>\n            <p>A CodeSystem to identify the type of death notice as held on Personal Demographics Service (PDS).</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> Copyright © 2016 HL7 UK\n         </p>\n         <p>This code system https://hl7.org.uk/fhir/CodeSystem/CareConnect-DeathNotificationStatus-1 defines the following codes:</p>\n         <table class=\"codes\">\n            <tr>\n               <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n               </td>\n               <td>\n                  <b>Display</b>\n               </td>\n               <td>\n                  <b>Definition</b>\n               </td>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">1\n                  <a name=\"CareConnect-DeathNotificationStatus-1-1\"> </a>\n               </td>\n               <td>Informal - death notice received via an update from a local NHS Organisation such as GP or Trust</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">2\n                  <a name=\"CareConnect-DeathNotificationStatus-1-2\"> </a>\n               </td>\n               <td>Formal - death notice received from Registrar of Deaths</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">U\n                  <a name=\"CareConnect-DeathNotificationStatus-1-U\"> </a>\n               </td>\n               <td>Removed</td>\n               <td/>\n            </tr>\n         </table>\n      </div>"
   },
-  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-DeathNotificationStatus-1",
-  "version": "3.0.0",
+  "url": "https://hl7.org.uk/fhir/CodeSystem/CareConnect-DeathNotificationStatus-1",
+  "version": "4.0.0",
   "name": "Care Connect Death Notification Status",
   "status": "draft",
   "date": "2018-11-12T00:00:00+00:00",
-  "publisher": "HL7 UK",
+  "publisher": "INTEROPen",
   "contact": [
     {
       "telecom": [

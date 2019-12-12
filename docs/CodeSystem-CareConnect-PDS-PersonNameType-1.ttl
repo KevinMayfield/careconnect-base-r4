@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1> a fhir:CodeSystem;
+<https://hl7.org.uk/fhir/CodeSystem/CareConnect-PDS-PersonNameType-1> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CareConnect-PDS-PersonNameType-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PDS Person Name Type</h2><div><p>A code to identify the type of a name of a Person.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">L<a name=\"CareConnect-PDS-PersonNameType-1-L\"> </a></td><td>Usual (current) name</td><td/></tr><tr><td style=\"white-space:nowrap\">A<a name=\"CareConnect-PDS-PersonNameType-1-A\"> </a></td><td>Alias name</td><td/></tr><tr><td style=\"white-space:nowrap\">PREFERRED<a name=\"CareConnect-PDS-PersonNameType-1-PREFERRED\"> </a></td><td>Preferred name</td><td/></tr><tr><td style=\"white-space:nowrap\">PREVIOUS<a name=\"CareConnect-PDS-PersonNameType-1-PREVIOUS\"> </a></td><td>Other previous name</td><td/></tr><tr><td style=\"white-space:nowrap\">PREVIOUS-BACHELOR<a name=\"CareConnect-PDS-PersonNameType-1-PREVIOUS-BACHELOR\"> </a></td><td>Bachelor name</td><td/></tr><tr><td style=\"white-space:nowrap\">PREVIOUS-BIRTH<a name=\"CareConnect-PDS-PersonNameType-1-PREVIOUS-BIRTH\"> </a></td><td>Birth name</td><td/></tr><tr><td style=\"white-space:nowrap\">PREVIOUS-MAIDEN<a name=\"CareConnect-PDS-PersonNameType-1-PREVIOUS-MAIDEN\"> </a></td><td>Maiden name</td><td/></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>PDS Person Name Type</h2>\n         <div>\n            <p>A code to identify the type of a name of a Person.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> Copyright © 2016 HL7 UK\n         </p>\n         <p>This code system https://hl7.org.uk/fhir/CodeSystem/CareConnect-PDS-PersonNameType-1 defines the following codes:</p>\n         <table class=\"codes\">\n            <tr>\n               <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n               </td>\n               <td>\n                  <b>Display</b>\n               </td>\n               <td>\n                  <b>Definition</b>\n               </td>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">L\n                  <a name=\"CareConnect-PDS-PersonNameType-1-L\"> </a>\n               </td>\n               <td>Usual (current) name</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">A\n                  <a name=\"CareConnect-PDS-PersonNameType-1-A\"> </a>\n               </td>\n               <td>Alias name</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">PREFERRED\n                  <a name=\"CareConnect-PDS-PersonNameType-1-PREFERRED\"> </a>\n               </td>\n               <td>Preferred name</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">PREVIOUS\n                  <a name=\"CareConnect-PDS-PersonNameType-1-PREVIOUS\"> </a>\n               </td>\n               <td>Other previous name</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">PREVIOUS-BACHELOR\n                  <a name=\"CareConnect-PDS-PersonNameType-1-PREVIOUS-BACHELOR\"> </a>\n               </td>\n               <td>Bachelor name</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">PREVIOUS-BIRTH\n                  <a name=\"CareConnect-PDS-PersonNameType-1-PREVIOUS-BIRTH\"> </a>\n               </td>\n               <td>Birth name</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">PREVIOUS-MAIDEN\n                  <a name=\"CareConnect-PDS-PersonNameType-1-PREVIOUS-MAIDEN\"> </a>\n               </td>\n               <td>Maiden name</td>\n               <td/>\n            </tr>\n         </table>\n      </div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"];
-  fhir:CodeSystem.version [ fhir:value "3.0.0"];
+  fhir:CodeSystem.url [ fhir:value "https://hl7.org.uk/fhir/CodeSystem/CareConnect-PDS-PersonNameType-1"];
+  fhir:CodeSystem.version [ fhir:value "4.0.0"];
   fhir:CodeSystem.name [ fhir:value "PDS Person Name Type"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.date [ fhir:value "2018-11-02T00:00:00+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "HL7 UK"];
+  fhir:CodeSystem.publisher [ fhir:value "INTEROPen"];
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -70,7 +70,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1.ttl> a owl:Ontology;
+<https://hl7.org.uk/fhir/CodeSystem/CareConnect-PDS-PersonNameType-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

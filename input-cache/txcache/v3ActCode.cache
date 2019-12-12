@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/v3/ActCode",
+  "code" : "IMP"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/v3/ActCode\" is not known (encountered paired with code = \"IMP\"); The code provided (http://hl7.org/fhir/v3/ActCode#IMP) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/v3/ActCode",
+  "code" : "EMER"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/v3/ActCode\" is not known (encountered paired with code = \"EMER\"); The code provided (http://hl7.org/fhir/v3/ActCode#EMER) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/v3/ActCode",
+  "code" : "IMP"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/v3/ActCode\" is not known (encountered paired with code = \"IMP\"); The code provided (http://hl7.org/fhir/v3/ActCode#IMP) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/v3/ActCode",
+  "code" : "EMER"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/v3/ActCode\" is not known (encountered paired with code = \"EMER\"); The code provided (http://hl7.org/fhir/v3/ActCode#EMER) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

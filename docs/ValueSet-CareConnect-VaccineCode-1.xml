@@ -30,12 +30,12 @@
          </ul> 
       </div>
   </text>
-  <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-VaccineCode-1"/>
-  <version value="3.0.0"/>
+  <url value="https://hl7.org.uk/fhir/ValueSet/CareConnect-VaccineCode-1"/>
+  <version value="4.0.0"/>
   <name value="Care Connect Vaccine Code"/>
   <status value="draft"/>
   <date value="2018-05-04T01:00:00+01:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROPen"/>
   <contact>
     <telecom>
       <system value="other"/>

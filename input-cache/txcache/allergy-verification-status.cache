@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/allergy-verification-status",
+      "concept" : [{
+        "code" : "unconfirmed",
+        "display" : "Unconfirmed"
+      },
+      {
+        "code" : "confirmed",
+        "display" : "Confirmed"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/allergy-verification-status"
+}
+-------------------------------------------------------------------------------------

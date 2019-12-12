@@ -6,19 +6,20 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/Encounter/encounter-735> a fhir:Encounter;
+<https://hl7.org.uk/fhir/Encounter/encounter-735> a fhir:Encounter;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "encounter-735"];
   fhir:Resource.meta [
      fhir:Meta.lastUpdated [ fhir:value "2018-12-06T13:44:10.257+00:00"^^xsd:dateTime ];
      fhir:Meta.profile [
        fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1";
-       fhir:index 0
+       fhir:index 0;
+       fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1>
      ]
   ];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: encounter-735</p><p><b>meta</b>: </p><p><b>identifier</b>: 663</p><p><b>status</b>: in-progress</p><p><b>class</b>: emergency (Details: http://hl7.org/fhir/v3/ActCode code EMER = 'emergency', stated as 'emergency')</p><p><b>type</b>: Ambulance-based care <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '11424001' = 'Ambulance-based care', given as 'Ambulance-based care'})</span></p><p><b>subject</b>: <a href=\"{{[id]}}.html\">Miss Bernie Kanfeld. Generated Summary: id: patient-1; 9876543210, ABC8650149; Bernie Kanfeld (OFFICIAL); ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME); gender: female; birthDate: 1998-03-19; <span title=\"Codes: {http://hl7.org/fhir/v3/MaritalStatus S}\">Never Married</span></a></p><p><b>period</b>: 6 Dec 2018, 13:39:04 --&gt; (ongoing)</p><h3>Locations</h3><table class=\"grid\"><tr><td>-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td>*</td><td><a href=\"{{[id]}}.html\">Pinderfields: Emergency Department. Generated Summary: id: location-200014; RC8-EDP; name: Pinderfields: Emergency Department; <span title=\"Codes: {http://hl7.org/fhir/v3/RoleCode ETU}\">Emergency trauma unit</span>; ph: airwave-87351940(MOBILE)</a></td><td>planned</td></tr></table><p><b>serviceProvider</b>: <a href=\"{{[id]}}.html\">North Riding NHS Trust. Generated Summary: id: organization-200001; RC8; name: North Riding NHS Trust</a></p><p><b>partOf</b>: <a href=\"{{[id]}}.html\">Generated Summary: id: encounter-1; status: arrived; <span title=\"{http://hl7.org/fhir/v3/ActCode IMP}\">inpatient encounter</span>; <span title=\"Codes: {http://snomed.info/sct 281685003}\">Admission for care</span>; <span title=\"Codes: {http://hl7.org/fhir/v3/ActPriority R}\">routine</span>; period: 20 Oct 2010, 18:16:00 --&gt; (ongoing)</a></p></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: encounter-735</p><p><b>meta</b>: </p><p><b>identifier</b>: 663</p><p><b>status</b>: in-progress</p><p><b>class</b>: emergency (Details: http://hl7.org/fhir/v3/ActCode code EMER = 'EMER', stated as 'emergency')</p><p><b>type</b>: Ambulance-based care <span style=\"background: LightGoldenRodYellow\">(Details : {SNOMED CT code '11424001' = 'Ambulance-based care', given as 'Ambulance-based care'})</span></p><p><b>subject</b>: <a href=\"{{[id]}}.html\">Miss Bernie Kanfeld. Generated Summary: id: patient-1; 9876543210, ABC8650149; Bernie Kanfeld (OFFICIAL); ph: 0115 9737320(HOME), bernie.kanfeld@nhsdigital.nhs.uk(HOME); gender: female; birthDate: 1998-03-19; <span title=\"Codes: {http://hl7.org/fhir/v3/MaritalStatus S}\">Never Married</span></a></p><p><b>period</b>: 6 Dec 2018, 13:39:04 --&gt; (ongoing)</p><h3>Locations</h3><table class=\"grid\"><tr><td>-</td><td><b>Location</b></td><td><b>Status</b></td></tr><tr><td>*</td><td><a href=\"{{[id]}}.html\">Pinderfields: Emergency Department. Generated Summary: id: location-200014; RC8-EDP; name: Pinderfields: Emergency Department; <span title=\"Codes: {http://hl7.org/fhir/v3/RoleCode ETU}\">Emergency trauma unit</span>; ph: airwave-87351940(MOBILE)</a></td><td>planned</td></tr></table><p><b>serviceProvider</b>: <a href=\"{{[id]}}.html\">North Riding NHS Trust. Generated Summary: id: organization-200001; RC8; name: North Riding NHS Trust</a></p><p><b>partOf</b>: <a href=\"{{[id]}}.html\">Generated Summary: id: encounter-1; status: arrived; <span title=\"{http://hl7.org/fhir/v3/ActCode IMP}\">inpatient encounter</span>; <span title=\"Codes: {http://snomed.info/sct 281685003}\">Admission for care</span>; <span title=\"Codes: {http://hl7.org/fhir/v3/ActPriority R}\">routine</span>; period: 20 Oct 2010, 18:16:00 --&gt; (ongoing)</a></p></div>"
   ];
   fhir:Encounter.identifier [
      fhir:index 0;
@@ -42,7 +43,7 @@
      ]
   ];
   fhir:Encounter.subject [
-     fhir:link <https://fhir.hl7.org.uk/STU3/Patient/patient-1>;
+     fhir:link <https://hl7.org.uk/fhir/Patient/patient-1>;
      fhir:Reference.reference [ fhir:value "Patient/patient-1" ];
      fhir:Reference.display [ fhir:value "Miss Bernie Kanfeld" ]
   ];
@@ -52,25 +53,25 @@
   fhir:Encounter.location [
      fhir:index 0;
      fhir:Encounter.location.location [
-       fhir:link <https://fhir.hl7.org.uk/STU3/Location/location-200014>;
+       fhir:link <https://hl7.org.uk/fhir/Location/location-200014>;
        fhir:Reference.reference [ fhir:value "Location/location-200014" ];
        fhir:Reference.display [ fhir:value "Pinderfields: Emergency Department" ]
      ];
      fhir:Encounter.location.status [ fhir:value "planned" ]
   ];
   fhir:Encounter.serviceProvider [
-     fhir:link <https://fhir.hl7.org.uk/STU3/Organization/organization-200001>;
+     fhir:link <https://hl7.org.uk/fhir/Organization/organization-200001>;
      fhir:Reference.reference [ fhir:value "Organization/organization-200001" ];
      fhir:Reference.display [ fhir:value "North Riding NHS Trust" ]
   ];
   fhir:Encounter.partOf [
-     fhir:link <https://fhir.hl7.org.uk/STU3/Encounter/encounter-1>;
+     fhir:link <https://hl7.org.uk/fhir/Encounter/encounter-1>;
      fhir:Reference.reference [ fhir:value "Encounter/encounter-1" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/Encounter/encounter-735.ttl> a owl:Ontology;
+<https://hl7.org.uk/fhir/Encounter/encounter-735.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

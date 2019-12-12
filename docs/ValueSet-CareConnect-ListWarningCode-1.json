@@ -3,14 +3,14 @@
   "id": "CareConnect-ListWarningCode-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect List Warning Code</h2><div><p>A ValueSet to identify the reason a list may be incomplete.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href=\"CareConnect-ListWarningCode-1.html\"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1</code></a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect List Warning Code</h2>\n         <div>\n            <p>A ValueSet to identify the reason a list may be incomplete.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> Copyright © 2016 HL7 UK\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include all codes defined in \n               <a href=\"CareConnect-ListWarningCode-1.html\">\n                  <code>https://hl7.org.uk/fhir/CodeSystem/CareConnect-ListWarningCode-1</code>\n               </a>\n            </li>\n         </ul>\n      </div>"
   },
-  "url": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ListWarningCode-1",
-  "version": "3.0.0",
+  "url": "https://hl7.org.uk/fhir/ValueSet/CareConnect-ListWarningCode-1",
+  "version": "4.0.0",
   "name": "Care Connect List Warning Code",
   "status": "draft",
   "date": "2018-11-01T00:00:00+00:00",
-  "publisher": "HL7 UK",
+  "publisher": "INTEROPen",
   "contact": [
     {
       "telecom": [
@@ -36,7 +36,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ListWarningCode-1"
+        "system": "https://hl7.org.uk/fhir/CodeSystem/CareConnect-ListWarningCode-1"
       }
     ]
   }

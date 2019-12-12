@@ -3,14 +3,14 @@
   "id": "CareConnect-ProblemSignificance-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Problem Significance</h2><div><p>A CodeSystem to record the significance of a Problem Header Condition.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">major<a name=\"CareConnect-ProblemSignificance-1-major\"> </a></td><td>Major</td><td/></tr><tr><td style=\"white-space:nowrap\">minor<a name=\"CareConnect-ProblemSignificance-1-minor\"> </a></td><td>Minor</td><td/></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Problem Significance</h2>\n         <div>\n            <p>A CodeSystem to record the significance of a Problem Header Condition.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> Copyright © 2016 HL7 UK\n         </p>\n         <p>This code system https://hl7.org.uk/fhir/CodeSystem/CareConnect-ProblemSignificance-1 defines the following codes:</p>\n         <table class=\"codes\">\n            <tr>\n               <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n               </td>\n               <td>\n                  <b>Display</b>\n               </td>\n               <td>\n                  <b>Definition</b>\n               </td>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">major\n                  <a name=\"CareConnect-ProblemSignificance-1-major\"> </a>\n               </td>\n               <td>Major</td>\n               <td/>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">minor\n                  <a name=\"CareConnect-ProblemSignificance-1-minor\"> </a>\n               </td>\n               <td>Minor</td>\n               <td/>\n            </tr>\n         </table>\n      </div>"
   },
-  "url": "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ProblemSignificance-1",
-  "version": "3.0.0",
+  "url": "https://hl7.org.uk/fhir/CodeSystem/CareConnect-ProblemSignificance-1",
+  "version": "4.0.0",
   "name": "Care Connect Problem Significance",
   "status": "draft",
   "date": "2018-04-16T01:00:00+01:00",
-  "publisher": "HL7 UK",
+  "publisher": "INTEROPen",
   "contact": [
     {
       "telecom": [

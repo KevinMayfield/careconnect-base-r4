@@ -5,14 +5,15 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/Organization/organization-2> a fhir:Organization;
+<https://hl7.org.uk/fhir/Organization/organization-2> a fhir:Organization;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "organization-2"];
   fhir:Resource.meta [
      fhir:Meta.lastUpdated [ fhir:value "2019-06-25T08:40:33.309+00:00"^^xsd:dateTime ];
      fhir:Meta.profile [
        fhir:value "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1";
-       fhir:index 0
+       fhir:index 0;
+       fhir:link <https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1>
      ]
   ];
   fhir:DomainResource.text [
@@ -51,14 +52,14 @@
      fhir:Address.postalCode [ fhir:value "NG10 1QQ" ]
   ];
   fhir:Organization.partOf [
-     fhir:link <https://fhir.hl7.org.uk/STU3/Organization/organization-3>;
+     fhir:link <https://hl7.org.uk/fhir/Organization/organization-3>;
      fhir:Reference.reference [ fhir:value "Organization/organization-3" ];
      fhir:Reference.display [ fhir:value "Nhs Erewash Ccg" ]
   ] .
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/Organization/organization-2.ttl> a owl:Ontology;
+<https://hl7.org.uk/fhir/Organization/organization-2.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

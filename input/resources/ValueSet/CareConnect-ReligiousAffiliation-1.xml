@@ -20,7 +20,7 @@
          </ul> 
       </div>
    </text>
-   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReligiousAffiliation-1"></url>
+   <url value="https://hl7.org.uk/fhir/ValueSet/CareConnect-ReligiousAffiliation-1"></url>
    <identifier>
       <system value="urn:ietf:rfc:3986"></system>
       <value value="urn:oid:2.16.840.1.113883.2.1.3.2.4.16.21"></value>
@@ -29,11 +29,11 @@
    <name value="Care Connect Religious Affiliation"></name>
    <status value="draft"></status>
    <date value="2018-11-02T00:00:00+00:00"></date>
-   <publisher value="HL7 UK"></publisher>
+   <publisher value="INTEROpen"></publisher>
    <contact>
       <telecom>
          <system value="other"></system>
-         <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
+         <value value="https://interopen.ryver.com/"></value>
       </telecom>
    </contact>
    <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the religious or other belief system affiliation of a person. Any code from the SNOMED CT UK 'Religious Affiliation SnCT' subset with subset original id 10791000000130; the corresponding SNOMED CT UK Refset fully specified name is 'Religious or other belief system affiliation simple reference set (foundation metadata concept)' with Refset Id 999000531000000100."></description>

@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReactionEventSeverity-1> a fhir:ValueSet;
+<https://hl7.org.uk/fhir/ValueSet/CareConnect-ReactionEventSeverity-1> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CareConnect-ReactionEventSeverity-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>AllergyIntoleranceSeverity</h2><div><p>Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.</p>\n</div><p><b>Copyright Statement:</b> Copyright © HL7.org 2011+</p><p>This value set includes codes from the following code systems:</p><ul><li>Include these codes as defined in <a href=\"http://hl7.org/fhir/STU3/codesystem-reaction-event-severity.html\"><code>http://hl7.org/fhir/reaction-event-severity</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://hl7.org/fhir/STU3/codesystem-reaction-event-severity.html#reaction-event-severity-mild\">mild</a></td><td>Mild</td><td>Causes mild physiological effects.</td></tr><tr><td><a href=\"http://hl7.org/fhir/STU3/codesystem-reaction-event-severity.html#reaction-event-severity-moderate\">moderate</a></td><td>Moderate</td><td>Causes moderate physiological effects.</td></tr><tr><td><a href=\"http://hl7.org/fhir/STU3/codesystem-reaction-event-severity.html#reaction-event-severity-severe\">severe</a></td><td>Severe</td><td>Causes severe physiological effects.</td></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>AllergyIntoleranceSeverity</h2>\n         <div>\n            <p>Clinical assessment of the severity of a reaction event as a whole, potentially considering multiple different manifestations.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> Copyright © HL7.org 2011+\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include these codes as defined in \n               <a href=\"http://hl7.org/fhir/STU3/codesystem-reaction-event-severity.html\">\n                  <code>http://hl7.org/fhir/reaction-event-severity</code>\n               </a>\n               <table class=\"none\">\n                  <tr>\n                     <td style=\"white-space:nowrap\">\n                        <b>Code</b>\n                     </td>\n                     <td>\n                        <b>Display</b>\n                     </td>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://hl7.org/fhir/STU3/codesystem-reaction-event-severity.html#reaction-event-severity-mild\">mild</a>\n                     </td>\n                     <td>Mild</td>\n                     <td>Causes mild physiological effects.</td>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://hl7.org/fhir/STU3/codesystem-reaction-event-severity.html#reaction-event-severity-moderate\">moderate</a>\n                     </td>\n                     <td>Moderate</td>\n                     <td>Causes moderate physiological effects.</td>\n                  </tr>\n                  <tr>\n                     <td>\n                        <a href=\"http://hl7.org/fhir/STU3/codesystem-reaction-event-severity.html#reaction-event-severity-severe\">severe</a>\n                     </td>\n                     <td>Severe</td>\n                     <td>Causes severe physiological effects.</td>\n                  </tr>\n               </table>\n            </li>\n         </ul>\n      </div>"
   ];
   fhir:DomainResource.extension [
      fhir:index 0;
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/valueset-map" ];
-     fhir:Extension.valueReference [
-       fhir:link <https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergySeverity-1>;
-       fhir:Reference.reference [ fhir:value "https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergySeverity-1" ]
+     fhir:Extension.valueCanonical [
+       fhir:value "https://hl7.org.uk/fhir/ConceptMap/CareConnect-AllergySeverity-1";
+       fhir:link <https://hl7.org.uk/fhir/ConceptMap/CareConnect-AllergySeverity-1>
      ]
   ], [
      fhir:index 1;
@@ -36,17 +36,17 @@
      fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-ballot-status" ];
      fhir:Extension.valueString [ fhir:value "Informative" ]
   ];
-  fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReactionEventSeverity-1"];
+  fhir:ValueSet.url [ fhir:value "https://hl7.org.uk/fhir/ValueSet/CareConnect-ReactionEventSeverity-1"];
   fhir:ValueSet.identifier [
      fhir:index 0;
      fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ];
      fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.4.642.3.125" ]
   ];
-  fhir:ValueSet.version [ fhir:value "3.0.0"];
+  fhir:ValueSet.version [ fhir:value "4.0.0"];
   fhir:ValueSet.name [ fhir:value "AllergyIntoleranceSeverity"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.date [ fhir:value "2017-04-18T22:44:47+01:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "HL7 UK"];
+  fhir:ValueSet.publisher [ fhir:value "INTEROPen"];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -87,7 +87,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReactionEventSeverity-1.ttl> a owl:Ontology;
+<https://hl7.org.uk/fhir/ValueSet/CareConnect-ReactionEventSeverity-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

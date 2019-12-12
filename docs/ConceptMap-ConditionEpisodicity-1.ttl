@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/ConceptMap/ConditionEpisodicity-1> a fhir:ConceptMap;
+<https://hl7.org.uk/fhir/ConceptMap/ConditionEpisodicity-1> a fhir:ConceptMap;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "ConditionEpisodicity-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Concept Map - Condition Episodicity (https://fhir.hl7.org.uk/STU3/ConceptMap/ConditionEpisodicity-1)</h2><p>Mapping from <a href=\"valueset-CareConnect-ConditionEpisodicity-1.html\">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodicity-1</a> to <a href=\"valueset-CareConnect-ConditionEpisodeSnCT-1.html\">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodeSnCT-1</a></p><p>DRAFT. Published on 14 Nov 2018, 00:00:00 by HL7 UK (). Copyright © 2016 HL7 UK</p><div><p>A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>first</td><td>equivalent</td><td>255217005 (First episode)</td></tr><tr><td>new</td><td>equivalent</td><td>288527008 (New episode)</td></tr><tr><td>review</td><td>equivalent</td><td>303350001 (Ongoing episode)</td></tr><tr><td>end</td><td>equivalent</td><td>272131007 (Old episode)</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Concept Map - Condition Episodicity (https://hl7.org.uk/fhir/ConceptMap/ConditionEpisodicity-1)</h2>\n         <p>Mapping from \n            <a href=\"valueset-CareConnect-ConditionEpisodicity-1.html\">https://hl7.org.uk/fhir/ValueSet/CareConnect-ConditionEpisodicity-1</a> to \n            <a href=\"valueset-CareConnect-ConditionEpisodeSnCT-1.html\">https://hl7.org.uk/fhir/ValueSet/CareConnect-ConditionEpisodeSnCT-1</a>\n         </p>\n         <p>DRAFT. Published on 14 Nov 2018, 00:00:00 by INTEROpen (). Copyright © 2016 HL7 UK</p>\n         <div>\n            <p>A Concept Map from ValueSet Condition Episodicity Severity to equivalent Snomed CT codes</p> \n         </div>\n         <br/>\n         <table class=\"grid\">\n            <tr>\n               <td>\n                  <b>Source Code</b>\n               </td>\n               <td>\n                  <b>Relationship</b>\n               </td>\n               <td>\n                  <b>Destination Code</b>\n               </td>\n            </tr>\n            <tr>\n               <td>first</td>\n               <td>equivalent</td>\n               <td>255217005 (First episode)</td>\n            </tr>\n            <tr>\n               <td>new</td>\n               <td>equivalent</td>\n               <td>288527008 (New episode)</td>\n            </tr>\n            <tr>\n               <td>review</td>\n               <td>equivalent</td>\n               <td>303350001 (Ongoing episode)</td>\n            </tr>\n            <tr>\n               <td>end</td>\n               <td>equivalent</td>\n               <td>272131007 (Old episode)</td>\n            </tr>\n         </table>\n      </div>"
   ];
-  fhir:ConceptMap.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ConceptMap/ConditionEpisodicity-1"];
-  fhir:ConceptMap.version [ fhir:value "3.0.0"];
+  fhir:ConceptMap.url [ fhir:value "https://hl7.org.uk/fhir/ConceptMap/ConditionEpisodicity-1"];
+  fhir:ConceptMap.version [ fhir:value "4.0.0"];
   fhir:ConceptMap.name [ fhir:value "Concept Map - Condition Episodicity"];
   fhir:ConceptMap.status [ fhir:value "draft"];
   fhir:ConceptMap.date [ fhir:value "2018-11-14T00:00:00+00:00"^^xsd:dateTime];
-  fhir:ConceptMap.publisher [ fhir:value "HL7 UK"];
+  fhir:ConceptMap.publisher [ fhir:value "INTEROPen"];
   fhir:ConceptMap.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -36,11 +36,11 @@
      ]
   ];
   fhir:ConceptMap.copyright [ fhir:value "Copyright © 2016 HL7 UK"];
-  fhir:ConceptMap.sourceUri [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodicity-1"];
-  fhir:ConceptMap.targetUri [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ConditionEpisodeSnCT-1"];
+  fhir:ConceptMap.sourceUri [ fhir:value "https://hl7.org.uk/fhir/ValueSet/CareConnect-ConditionEpisodicity-1"];
+  fhir:ConceptMap.targetUri [ fhir:value "https://hl7.org.uk/fhir/ValueSet/CareConnect-ConditionEpisodeSnCT-1"];
   fhir:ConceptMap.group [
      fhir:index 0;
-     fhir:ConceptMap.group.source [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1" ];
+     fhir:ConceptMap.group.source [ fhir:value "https://hl7.org.uk/fhir/CodeSystem/CareConnect-ConditionEpisodicity-1" ];
      fhir:ConceptMap.group.target [ fhir:value "http://snomed.info/sct" ];
      fhir:ConceptMap.group.element [
        fhir:index 0;
@@ -87,7 +87,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/ConceptMap/ConditionEpisodicity-1.ttl> a owl:Ontology;
+<https://hl7.org.uk/fhir/ConceptMap/ConditionEpisodicity-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

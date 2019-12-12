@@ -7535,3 +7535,36 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "734163000",
+  "display" : "Care Plan"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Care plan (record artifact)",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "708168004",
+  "display" : "Mental health service"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "Mental health service",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://snomed.info/sct",
+  "code" : "708168004",
+  "display" : "Mental health service"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "Mental health service",
+  "severity" : null,
+  "error" : ""
+}
+-------------------------------------------------------------------------------------

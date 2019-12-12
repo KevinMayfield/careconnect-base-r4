@@ -3,14 +3,14 @@
   "id": "CareConnect-RiskAssessment-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/STU3/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"{{[id]}}-definitions.html#RiskAssessment\" title=\"null\">RiskAssessment</a><a name=\"RiskAssessment\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7;\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"{{[id]}}-definitions.html#RiskAssessment.identifier\" title=\"null\">identifier</a><a name=\"RiskAssessment.identifier\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"{{[id]}}-definitions.html#RiskAssessment.identifier.assigner\" title=\"null\">assigner</a><a name=\"RiskAssessment.identifier.assigner\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.4\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.4\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(<a href=\"CareConnect-Organization-1.html\">CareConnect-Organization-1</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7;\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"{{[id]}}-definitions.html#RiskAssessment.subject\" title=\"null\">subject</a><a name=\"RiskAssessment.subject\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.4\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.4\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(<a href=\"http://hl7.org/fhir/STU3/group.html\">Group</a> | <a href=\"CareConnect-Patient-1.html\">CareConnect-Patient-1</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"{{[id]}}-definitions.html#RiskAssessment.context\" title=\"null\">context</a><a name=\"RiskAssessment.context\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.4\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.4\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(<a href=\"CareConnect-EpisodeOfCare-1.html\">CareConnect-EpisodeOfCare-1</a> | <a href=\"CareConnect-Encounter-1.html\">CareConnect-Encounter-1</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7;\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"{{[id]}}-definitions.html#RiskAssessment.condition\" title=\"null\">condition</a><a name=\"RiskAssessment.condition\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.4\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.4\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(<a href=\"CareConnect-Condition-1.html\">CareConnect-Condition-1</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"{{[id]}}-definitions.html#RiskAssessment.performer\" title=\"null\">performer</a><a name=\"RiskAssessment.performer\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.4\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.4\">1</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(<a href=\"http://hl7.org/fhir/STU3/device.html\">Device</a> | <a href=\"CareConnect-Practitioner-1.html\">CareConnect-Practitioner-1</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Legend for this format\"><img src=\"http://hl7.org/fhir/STU3/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\">\n            <tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\">\n               <th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"The logical name of the element\">Name</a>\n               </th>\n               <th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Information about the use of the element\">Flags</a>\n               </th>\n               <th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a>\n               </th>\n               <th style=\"width: 100px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Reference to the type of the element\">Type</a>\n               </th>\n               <th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Additional information about the element\">Description &amp; Constraints</a>\n                  <span style=\"float: right\">\n                     <a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Legend for this format\">\n                        <img src=\"http://hl7.org/fhir/STU3/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/>\n                     </a>\n                  </span>\n               </th>\n            </tr>\n            <tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\">\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\">\n                  <img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> \n                  <a href=\"{{[id]}}-definitions.html#RiskAssessment\" title=\"null\">RiskAssessment</a>\n                  <a name=\"RiskAssessment\"> </a>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n            </tr> \n            <tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7;\">\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)\" class=\"hierarchy\">\n                  <img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"icon_element.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> \n                  <a href=\"{{[id]}}-definitions.html#RiskAssessment.identifier\" title=\"null\">identifier</a>\n                  <a name=\"RiskAssessment.identifier\"> </a>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n            </tr> \n            <tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\">\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)\" class=\"hierarchy\">\n                  <img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"tbl_vline.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> \n                  <a href=\"{{[id]}}-definitions.html#RiskAssessment.identifier.assigner\" title=\"null\">assigner</a>\n                  <a name=\"RiskAssessment.identifier.assigner\"> </a>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <span style=\"opacity: 0.4\">0</span>\n                  <span style=\"opacity: 0.5\">..</span>\n                  <span style=\"opacity: 0.4\">1</span>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(\n                  <a href=\"CareConnect-Organization-1.html\">CareConnect-Organization-1</a>)\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n            </tr> \n            <tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7;\">\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\">\n                  <img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> \n                  <a href=\"{{[id]}}-definitions.html#RiskAssessment.subject\" title=\"null\">subject</a>\n                  <a name=\"RiskAssessment.subject\"> </a>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <span style=\"opacity: 0.4\">0</span>\n                  <span style=\"opacity: 0.5\">..</span>\n                  <span style=\"opacity: 0.4\">1</span>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(\n                  <a href=\"http://hl7.org/fhir/STU3/group.html\">Group</a> | \n                  <a href=\"CareConnect-Patient-1.html\">CareConnect-Patient-1</a>)\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n            </tr> \n            <tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\">\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\">\n                  <img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> \n                  <a href=\"{{[id]}}-definitions.html#RiskAssessment.context\" title=\"null\">context</a>\n                  <a name=\"RiskAssessment.context\"> </a>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <span style=\"opacity: 0.4\">0</span>\n                  <span style=\"opacity: 0.5\">..</span>\n                  <span style=\"opacity: 0.4\">1</span>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(\n                  <a href=\"CareConnect-EpisodeOfCare-1.html\">CareConnect-EpisodeOfCare-1</a> | \n                  <a href=\"CareConnect-Encounter-1.html\">CareConnect-Encounter-1</a>)\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n            </tr> \n            <tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7;\">\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\">\n                  <img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> \n                  <a href=\"{{[id]}}-definitions.html#RiskAssessment.condition\" title=\"null\">condition</a>\n                  <a name=\"RiskAssessment.condition\"> </a>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <span style=\"opacity: 0.4\">0</span>\n                  <span style=\"opacity: 0.5\">..</span>\n                  <span style=\"opacity: 0.4\">1</span>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(\n                  <a href=\"CareConnect-Condition-1.html\">CareConnect-Condition-1</a>)\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n            </tr> \n            <tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white;\">\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\">\n                  <img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/>\n                  <img src=\"icon_reference.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> \n                  <a href=\"{{[id]}}-definitions.html#RiskAssessment.performer\" title=\"null\">performer</a>\n                  <a name=\"RiskAssessment.performer\"> </a>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <span style=\"opacity: 0.4\">0</span>\n                  <span style=\"opacity: 0.5\">..</span>\n                  <span style=\"opacity: 0.4\">1</span>\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">\n                  <a href=\"http://hl7.org/fhir/STU3/references.html\">Reference</a>(\n                  <a href=\"http://hl7.org/fhir/STU3/device.html\">Device</a> | \n                  <a href=\"CareConnect-Practitioner-1.html\">CareConnect-Practitioner-1</a>)\n               </td>\n               <td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/>\n            </tr> \n            <tr>\n               <td colspan=\"5\" class=\"hierarchy\">\n                  <br/>\n                  <a href=\"http://hl7.org/fhir/STU3/formats.html#table\" title=\"Legend for this format\">\n                     <img src=\"http://hl7.org/fhir/STU3/help16.png\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format\n                  </a>\n               </td>\n            </tr>\n         </table>\n      </div>"
   },
-  "url": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-RiskAssessment-1",
-  "version": "3.0.0",
+  "url": "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-RiskAssessment-1",
+  "version": "4.0.0",
   "name": "CareConnect-RiskAssessment-1",
   "status": "draft",
   "date": "2019-03-04T15:13:38+00:00",
-  "publisher": "HL7 UK",
+  "publisher": "INTEROPen",
   "contact": [
     {
       "telecom": [
@@ -189,7 +189,7 @@
         "path": "RiskAssessment.implicitRules",
         "short": "A set of rules under which this content was created",
         "definition": "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content.",
-        "comment": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. \n\nThis element is labelled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation.",
+        "comment": "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element.   This element is labelled as a modifier because the implicit rules may provide additional knowledge about the resource that modifies it's meaning or interpretation.",
         "min": 0,
         "max": "1",
         "base": {
@@ -203,6 +203,7 @@
           }
         ],
         "isModifier": true,
+        "isModifierReason": "No Modifier Reason provideed in previous versions of FHIR",
         "isSummary": true
       },
       {
@@ -227,9 +228,7 @@
           "extension": [
             {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet",
-              "valueReference": {
-                "reference": "http://hl7.org/fhir/ValueSet/all-languages"
-              }
+              "valueCanonical": "http://hl7.org/fhir/ValueSet/all-languages"
             },
             {
               "url": "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName",
@@ -242,9 +241,7 @@
           ],
           "strength": "extensible",
           "description": "A human language.",
-          "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/languages"
-          }
+          "valueSet": "http://hl7.org/fhir/ValueSet/languages"
         }
       },
       {
@@ -363,6 +360,7 @@
           }
         ],
         "isModifier": true,
+        "isModifierReason": "No Modifier Reason provideed in previous versions of FHIR",
         "mapping": [
           {
             "identity": "rim",
@@ -493,6 +491,7 @@
           }
         ],
         "isModifier": true,
+        "isModifierReason": "No Modifier Reason provideed in previous versions of FHIR",
         "isSummary": true,
         "binding": {
           "extension": [
@@ -503,9 +502,7 @@
           ],
           "strength": "required",
           "description": "Identifies the purpose for this identifier, if known .",
-          "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/identifier-use"
-          }
+          "valueSet": "http://hl7.org/fhir/ValueSet/identifier-use"
         },
         "mapping": [
           {
@@ -523,7 +520,7 @@
         "path": "RiskAssessment.identifier.type",
         "short": "Description of identifier",
         "definition": "A coded type for the identifier that can be used to determine which identifier to use for a specific purpose.",
-        "comment": "This element deals only with general categories of identifiers.  It SHOULD not be used for codes that correspond 1..1 with the Identifier.system. Some identifiers may fall into multiple categories due to common usage. \n\nWhere the system is known, a type is unnecessary because the type is always part of the system definition. However systems often need to handle identifiers where the system is not known. There is not a 1:1 relationship between type and system, since many different systems have the same type.",
+        "comment": "This element deals only with general categories of identifiers.  It SHOULD not be used for codes that correspond 1..1 with the Identifier.system. Some identifiers may fall into multiple categories due to common usage.   Where the system is known, a type is unnecessary because the type is always part of the system definition. However systems often need to handle identifiers where the system is not known. There is not a 1:1 relationship between type and system, since many different systems have the same type.",
         "requirements": "Allows users to make use of identifiers when the identifier system is not known.",
         "min": 0,
         "max": "1",
@@ -551,9 +548,7 @@
           ],
           "strength": "extensible",
           "description": "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
-          "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/identifier-type"
-          }
+          "valueSet": "http://hl7.org/fhir/ValueSet/identifier-type"
         },
         "mapping": [
           {
@@ -695,7 +690,9 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"
+            "targetProfile": [
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Organization-1"
+            ]
           }
         ],
         "isSummary": true,
@@ -729,7 +726,9 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Resource"
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Resource"
+            ]
           }
         ],
         "mapping": [
@@ -754,7 +753,9 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Resource"
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Resource"
+            ]
           }
         ],
         "mapping": [
@@ -790,9 +791,7 @@
           ],
           "strength": "required",
           "description": "The status of the risk assessment; e.g. preliminary, final, amended, etc.",
-          "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/observation-status"
-          }
+          "valueSet": "http://hl7.org/fhir/ValueSet/observation-status"
         },
         "mapping": [
           {
@@ -889,11 +888,10 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Group"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Group",
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Patient-1"
+            ]
           }
         ],
         "isSummary": true,
@@ -931,11 +929,10 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
+            "targetProfile": [
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-EpisodeOfCare-1",
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Encounter-1"
+            ]
           }
         ],
         "isSummary": true,
@@ -1006,7 +1003,9 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Condition-1"
+            "targetProfile": [
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Condition-1"
+            ]
           }
         ],
         "isSummary": true,
@@ -1032,11 +1031,10 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Device"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Device",
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Practitioner-1"
+            ]
           }
         ],
         "isSummary": true,
@@ -1077,7 +1075,9 @@
           },
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Resource"
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Resource"
+            ]
           }
         ],
         "mapping": [
@@ -1106,7 +1106,9 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Resource"
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Resource"
+            ]
           }
         ],
         "mapping": [
@@ -1246,6 +1248,7 @@
           }
         ],
         "isModifier": true,
+        "isModifierReason": "No Modifier Reason provideed in previous versions of FHIR",
         "isSummary": true,
         "mapping": [
           {
@@ -1359,9 +1362,7 @@
           ],
           "strength": "example",
           "description": "The likelihood of the occurrence of a specified outcome",
-          "valueSetReference": {
-            "reference": "http://hl7.org/fhir/ValueSet/risk-probability"
-          }
+          "valueSet": "http://hl7.org/fhir/ValueSet/risk-probability"
         }
       },
       {
@@ -1504,7 +1505,9 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"
+            "targetProfile": [
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Organization-1"
+            ]
           }
         ]
       },
@@ -1514,11 +1517,10 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Group"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Group",
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Patient-1"
+            ]
           }
         ]
       },
@@ -1528,11 +1530,10 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-EpisodeOfCare-1"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Encounter-1"
+            "targetProfile": [
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-EpisodeOfCare-1",
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Encounter-1"
+            ]
           }
         ]
       },
@@ -1542,7 +1543,9 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Condition-1"
+            "targetProfile": [
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Condition-1"
+            ]
           }
         ]
       },
@@ -1552,11 +1555,10 @@
         "type": [
           {
             "code": "Reference",
-            "targetProfile": "http://hl7.org/fhir/StructureDefinition/Device"
-          },
-          {
-            "code": "Reference",
-            "targetProfile": "https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Device",
+              "https://hl7.org.uk/fhir/StructureDefinition/CareConnect-Practitioner-1"
+            ]
           }
         ]
       }

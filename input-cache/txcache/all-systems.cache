@@ -176,3 +176,138 @@ v: {
   "error" : ""
 }
 -------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "ProcedureRequest"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/data-types"
+    },
+    {
+      "system" : "http://hl7.org/fhir/resource-types"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known (encountered paired with code = \"ProcedureRequest\"); The code provided (#ProcedureRequest) is not  valid in the value set FHIRDefinedType"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "ReferralRequest"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/data-types"
+    },
+    {
+      "system" : "http://hl7.org/fhir/resource-types"
+    }]
+  }
+}, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known (encountered paired with code = \"ReferralRequest\"); The code provided (#ReferralRequest) is not  valid in the value set FHIRDefinedType"
+}
+-------------------------------------------------------------------------------------
+{"hierarchical" : true, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/v3/MaritalStatus",
+      "concept" : [{
+        "code" : "A",
+        "display" : "Annulled"
+      },
+      {
+        "code" : "D",
+        "display" : "Divorced"
+      },
+      {
+        "code" : "I",
+        "display" : "Interlocutory"
+      },
+      {
+        "code" : "L",
+        "display" : "Legally Separated"
+      },
+      {
+        "code" : "M",
+        "display" : "Married"
+      },
+      {
+        "code" : "P",
+        "display" : "Polygamous"
+      },
+      {
+        "code" : "S",
+        "display" : "Never Married"
+      },
+      {
+        "code" : "T",
+        "display" : "Domestic partner"
+      },
+      {
+        "code" : "U",
+        "display" : "unmaried"
+      },
+      {
+        "code" : "W",
+        "display" : "Widowed"
+      }]
+    },
+    {
+      "system" : "http://hl7.org/fhir/v3/NullFlavor",
+      "concept" : [{
+        "code" : "UNK",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}}####
+e: {
+  "error" : "Error from server: Unable to provide support for code system http://hl7.org/fhir/v3/MaritalStatus"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "ProcedureRequest"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/data-types"
+    },
+    {
+      "system" : "http://hl7.org/fhir/resource-types"
+    }]
+  }
+}, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known (encountered paired with code = \"ProcedureRequest\"); The code provided (#ProcedureRequest) is not  valid in the value set FHIRDefinedType"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "code" : "ReferralRequest"
+}, "valueSet" :{
+  "resourceType" : "ValueSet",
+  "compose" : {
+    "include" : [{
+      "system" : "http://hl7.org/fhir/data-types"
+    },
+    {
+      "system" : "http://hl7.org/fhir/resource-types"
+    }]
+  }
+}, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"\" is not known (encountered paired with code = \"ReferralRequest\"); The code provided (#ReferralRequest) is not  valid in the value set FHIRDefinedType"
+}
+-------------------------------------------------------------------------------------

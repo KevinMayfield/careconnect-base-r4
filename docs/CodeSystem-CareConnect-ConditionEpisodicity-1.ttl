@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1> a fhir:CodeSystem;
+<https://hl7.org.uk/fhir/CodeSystem/CareConnect-ConditionEpisodicity-1> a fhir:CodeSystem;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CareConnect-ConditionEpisodicity-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Condition Episodicity</h2><div><p>A CodeSystem to identify the episodicity of a condition.</p>\n</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1 defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">first<a name=\"CareConnect-ConditionEpisodicity-1-first\"> </a></td><td>First</td><td>The first episode of a condition.</td></tr><tr><td style=\"white-space:nowrap\">new<a name=\"CareConnect-ConditionEpisodicity-1-new\"> </a></td><td>New</td><td>A new episode of a previously recorded condition.</td></tr><tr><td style=\"white-space:nowrap\">review<a name=\"CareConnect-ConditionEpisodicity-1-review\"> </a></td><td>Review</td><td>A review of an existing condition episode.</td></tr><tr><td style=\"white-space:nowrap\">end<a name=\"CareConnect-ConditionEpisodicity-1-end\"> </a></td><td>End</td><td>Marks the end of an existing condition episode.</td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Condition Episodicity</h2>\n         <div>\n            <p>A CodeSystem to identify the episodicity of a condition.</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> Copyright © 2016 HL7 UK\n         </p>\n         <p>This code system https://hl7.org.uk/fhir/CodeSystem/CareConnect-ConditionEpisodicity-1 defines the following codes:</p>\n         <table class=\"codes\">\n            <tr>\n               <td style=\"white-space:nowrap\">\n                  <b>Code</b>\n               </td>\n               <td>\n                  <b>Display</b>\n               </td>\n               <td>\n                  <b>Definition</b>\n               </td>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">first\n                  <a name=\"CareConnect-ConditionEpisodicity-1-first\"> </a>\n               </td>\n               <td>First</td>\n               <td>The first episode of a condition.</td>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">new\n                  <a name=\"CareConnect-ConditionEpisodicity-1-new\"> </a>\n               </td>\n               <td>New</td>\n               <td>A new episode of a previously recorded condition.</td>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">review\n                  <a name=\"CareConnect-ConditionEpisodicity-1-review\"> </a>\n               </td>\n               <td>Review</td>\n               <td>A review of an existing condition episode.</td>\n            </tr>\n            <tr>\n               <td style=\"white-space:nowrap\">end\n                  <a name=\"CareConnect-ConditionEpisodicity-1-end\"> </a>\n               </td>\n               <td>End</td>\n               <td>Marks the end of an existing condition episode.</td>\n            </tr>\n         </table>\n      </div>"
   ];
-  fhir:CodeSystem.url [ fhir:value "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1"];
-  fhir:CodeSystem.version [ fhir:value "3.0.0"];
+  fhir:CodeSystem.url [ fhir:value "https://hl7.org.uk/fhir/CodeSystem/CareConnect-ConditionEpisodicity-1"];
+  fhir:CodeSystem.version [ fhir:value "4.0.0"];
   fhir:CodeSystem.name [ fhir:value "Care Connect Condition Episodicity"];
   fhir:CodeSystem.status [ fhir:value "draft"];
   fhir:CodeSystem.date [ fhir:value "2018-11-14T00:00:00+00:00"^^xsd:dateTime];
-  fhir:CodeSystem.publisher [ fhir:value "HL7 UK"];
+  fhir:CodeSystem.publisher [ fhir:value "INTEROPen"];
   fhir:CodeSystem.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -62,7 +62,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-ConditionEpisodicity-1.ttl> a owl:Ontology;
+<https://hl7.org.uk/fhir/CodeSystem/CareConnect-ConditionEpisodicity-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

@@ -3,15 +3,30 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="CareConnect-PDS-PersonNameType-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PDS Person Name Type</h2><div><p>A code to identify the type of a name of a Person.</p>
-</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This value set includes codes from the following code systems:</p><ul><li>Include all codes defined in <a href="CareConnect-PDS-PersonNameType-1.html"><code>https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1</code></a></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>PDS Person Name Type</h2>
+         <div>
+            <p>A code to identify the type of a name of a Person.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> Copyright © 2016 HL7 UK
+         </p>
+         <p>This value set includes codes from the following code systems:</p>
+         <ul>
+            <li>Include all codes defined in 
+               <a href="CareConnect-PDS-PersonNameType-1.html">
+                  <code>https://hl7.org.uk/fhir/CodeSystem/CareConnect-PDS-PersonNameType-1</code>
+               </a>
+            </li>
+         </ul>
+      </div>
   </text>
-  <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-PDS-PersonNameType-1"/>
-  <version value="3.0.0"/>
+  <url value="https://hl7.org.uk/fhir/ValueSet/CareConnect-PDS-PersonNameType-1"/>
+  <version value="4.0.0"/>
   <name value="PDS Person Name Type"/>
   <status value="draft"/>
   <date value="2018-11-02T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROPen"/>
   <contact>
     <telecom>
       <system value="other"/>
@@ -28,7 +43,7 @@
   <copyright value="Copyright &#xA9; 2016 HL7 UK"/>
   <compose>
     <include>
-      <system value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
+      <system value="https://hl7.org.uk/fhir/CodeSystem/CareConnect-PDS-PersonNameType-1"/>
     </include>
   </compose>
 </ValueSet>

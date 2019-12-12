@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/observation-category",
+  "code" : "vital-signs"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"true", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/observation-category\" is not known (encountered paired with code = \"vital-signs\"); The code provided (http://hl7.org/fhir/observation-category#vital-signs) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/observation-category",
+  "code" : "vital-signs",
+  "display" : "Vital Signs"
+}, "valueSet" :null, "lang":"null", "useServer":"true", "useClient":"false", "guessSystem":"false"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/observation-category\" is not known (encountered paired with code = \"vital-signs\"); The code provided (http://hl7.org/fhir/observation-category#vital-signs) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/observation-category",
+  "code" : "vital-signs"
+}, "valueSet" :null, "lang":"null"}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/observation-category\" is not known (encountered paired with code = \"vital-signs\"); The code provided (http://hl7.org/fhir/observation-category#vital-signs) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/observation-category",
+  "code" : "vital-signs"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/observation-category\" is not known (encountered paired with code = \"vital-signs\"); The code provided (http://hl7.org/fhir/observation-category#vital-signs) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------
+{"code" : {
+  "system" : "http://hl7.org/fhir/observation-category",
+  "code" : "survey"
+}, "valueSet" :null}####
+v: {
+  "display" : "",
+  "severity" : "error",
+  "error" : "The code system \"http://hl7.org/fhir/observation-category\" is not known (encountered paired with code = \"survey\"); The code provided (http://hl7.org/fhir/observation-category#survey) is not  valid in the value set All codes known to the system"
+}
+-------------------------------------------------------------------------------------

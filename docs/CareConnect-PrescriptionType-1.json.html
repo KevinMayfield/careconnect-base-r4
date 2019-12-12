@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>CARECONNECT-BASE\cs-PrescriptionType-1 - JSON Representation - FHIR v3.0.2</title>
+    <title>CARECONNECT-BASE\cs-PrescriptionType-1 - JSON Representation - FHIR v4.0.1</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -40,7 +40,7 @@
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <div id="hl7-nav">
-          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/STU3/">
+          <a id="hl7-logo" no-external="true" href="http://hl7.org/fhir/R4/">
             <img height="50" alt="Visit the HL7 website" src="assets/images/hl7-logo-header.png"/>
           </a>
         </div>
@@ -51,7 +51,7 @@
           <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
         </div>
         <div id="hl7-status">
-          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base STU3 Implementation Guide</span><br/>3.0.0 - draft</p>
+          <p><span style="font-size:12pt;font-weight:bold">INTEROPen CareConnect Base R4 Implementation Guide</span><br/>4.0.0 - draft</p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -69,7 +69,7 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a class="navbar-brand hidden" href="http://hl7.org/fhir/STU3/index.html">FHIR</a>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
               <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
   <li><a href="index.html">CareConnect Implementation Guide</a></li>
@@ -134,7 +134,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect Base STU3 Implementation Guide - Local Development build (v3.0.0). See the <a href="https://fhir.hl7.org.uk/STU3/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">INTEROPen CareConnect Base R4 Implementation Guide - Local Development build (v4.0.0). See the <a href="https://hl7.org.uk/fhir/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <a name="root"> </a>
   <h2 id="root">cs-PrescriptionType-1 - JSON Representation</h2>
   <p>
@@ -148,58 +148,58 @@
   
   <pre class="json">
 {
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.id">id</a>" : "CareConnect-PrescriptionType-1",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.text">text</a>" : {
-    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
-    "<a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;h2&gt;Care Connect Prescription Type&lt;/h2&gt;&lt;div&gt;&lt;p&gt;A CodeSystem to identify the type of prescription&lt;/p&gt;\n&lt;/div&gt;&lt;p&gt;&lt;b&gt;Copyright Statement:&lt;/b&gt; Copyright © 2016 HL7 UK&lt;/p&gt;&lt;p&gt;This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1 defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;acute&lt;a name=\&quot;CareConnect-PrescriptionType-1-acute\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Acute&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;repeat&lt;a name=\&quot;CareConnect-PrescriptionType-1-repeat\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Repeat&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;repeat-dispensing&lt;a name=\&quot;CareConnect-PrescriptionType-1-repeat-dispensing\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Repeat dispensing&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;delayed-prescribing&lt;a name=\&quot;CareConnect-PrescriptionType-1-delayed-prescribing\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Delayed prescribing&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"<a name="end-xhtml"></a>
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">resourceType</a>" : "CodeSystem",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a>" : "CareConnect-PrescriptionType-1",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>" : {
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a>" : "generated",
+    "<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">div</a>" : "&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;\n         &lt;h2&gt;Care Connect Prescription Type&lt;/h2&gt;\n         &lt;div&gt;\n            &lt;p&gt;A CodeSystem to identify the type of prescription&lt;/p&gt; \n         &lt;/div&gt;\n         &lt;p&gt;\n            &lt;b&gt;Copyright Statement:&lt;/b&gt; Copyright © 2016 HL7 UK\n         &lt;/p&gt;\n         &lt;p&gt;This code system https://hl7.org.uk/fhir/CodeSystem/CareConnect-PrescriptionType-1 defines the following codes:&lt;/p&gt;\n         &lt;table class=\&quot;codes\&quot;&gt;\n            &lt;tr&gt;\n               &lt;td style=\&quot;white-space:nowrap\&quot;&gt;\n                  &lt;b&gt;Code&lt;/b&gt;\n               &lt;/td&gt;\n               &lt;td&gt;\n                  &lt;b&gt;Display&lt;/b&gt;\n               &lt;/td&gt;\n               &lt;td&gt;\n                  &lt;b&gt;Definition&lt;/b&gt;\n               &lt;/td&gt;\n            &lt;/tr&gt;\n            &lt;tr&gt;\n               &lt;td style=\&quot;white-space:nowrap\&quot;&gt;acute\n                  &lt;a name=\&quot;CareConnect-PrescriptionType-1-acute\&quot;&gt; &lt;/a&gt;\n               &lt;/td&gt;\n               &lt;td&gt;Acute&lt;/td&gt;\n               &lt;td/&gt;\n            &lt;/tr&gt;\n            &lt;tr&gt;\n               &lt;td style=\&quot;white-space:nowrap\&quot;&gt;repeat\n                  &lt;a name=\&quot;CareConnect-PrescriptionType-1-repeat\&quot;&gt; &lt;/a&gt;\n               &lt;/td&gt;\n               &lt;td&gt;Repeat&lt;/td&gt;\n               &lt;td/&gt;\n            &lt;/tr&gt;\n            &lt;tr&gt;\n               &lt;td style=\&quot;white-space:nowrap\&quot;&gt;repeat-dispensing\n                  &lt;a name=\&quot;CareConnect-PrescriptionType-1-repeat-dispensing\&quot;&gt; &lt;/a&gt;\n               &lt;/td&gt;\n               &lt;td&gt;Repeat dispensing&lt;/td&gt;\n               &lt;td/&gt;\n            &lt;/tr&gt;\n            &lt;tr&gt;\n               &lt;td style=\&quot;white-space:nowrap\&quot;&gt;delayed-prescribing\n                  &lt;a name=\&quot;CareConnect-PrescriptionType-1-delayed-prescribing\&quot;&gt; &lt;/a&gt;\n               &lt;/td&gt;\n               &lt;td&gt;Delayed prescribing&lt;/td&gt;\n               &lt;td/&gt;\n            &lt;/tr&gt;\n         &lt;/table&gt;\n      &lt;/div&gt;"<a name="end-xhtml"></a>
   },
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.url">url</a>" : "https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-PrescriptionType-1",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.version">version</a>" : "3.0.0",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.name">name</a>" : "Care Connect Prescription Type",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.status">status</a>" : "draft",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.date">date</a>" : "2018-11-01T00:00:00+00:00",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.publisher">publisher</a>" : "HL7 UK",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.contact">contact</a>" : [
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">url</a>" : "https://hl7.org.uk/fhir/CodeSystem/CareConnect-PrescriptionType-1",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a>" : "4.0.0",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a>" : "Care Connect Prescription Type",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a>" : "draft",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a>" : "2018-11-01T00:00:00+00:00",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a>" : "INTEROPen",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">contact</a>" : [
     {
-      "<a href="http://hl7.org/fhir/STU3/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
+      "<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>" : [
         {
-          "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "other",
-          "<a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://chat.fhir.org/#narrow/stream/179189-uk"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">system</a>" : "other",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">value</a>" : "https://chat.fhir.org/#narrow/stream/179189-uk"
         }
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.description">description</a>" : "A CodeSystem to identify the type of prescription",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>" : "A CodeSystem to identify the type of prescription",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">jurisdiction</a>" : [
     {
-      "<a href="http://hl7.org/fhir/STU3/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
+      "<a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">coding</a>" : [
         {
-          "<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
-          "<a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.code">code</a>" : "826"
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">system</a>" : "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">code</a>" : "826"
         }
       ]
     }
   ],
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.copyright">copyright</a>" : "Copyright © 2016 HL7 UK",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a>" : true,
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.content">content</a>" : "complete",
-  "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.concept">concept</a>" : [
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.copyright">copyright</a>" : "Copyright © 2016 HL7 UK",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">caseSensitive</a>" : true,
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a>" : "complete",
+  "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">concept</a>" : [
     {
-      "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.concept.code">code</a>" : "acute",
-      "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.concept.display">display</a>" : "Acute"
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "acute",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Acute"
     },
     {
-      "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.concept.code">code</a>" : "repeat",
-      "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.concept.display">display</a>" : "Repeat"
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "repeat",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Repeat"
     },
     {
-      "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.concept.code">code</a>" : "repeat-dispensing",
-      "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.concept.display">display</a>" : "Repeat dispensing"
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "repeat-dispensing",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Repeat dispensing"
     },
     {
-      "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.concept.code">code</a>" : "delayed-prescribing",
-      "<a href="http://hl7.org/fhir/STU3/codesystem.html#CodeSystem.concept.display">display</a>" : "Delayed prescribing"
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">code</a>" : "delayed-prescribing",
+      "<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">display</a>" : "Delayed prescribing"
     }
   ]
 }</pre>
@@ -218,13 +218,13 @@
     <div class="container">  <!-- container -->
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>HL7 UK</a>.  Package careconnect.stu3.base#3.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Thu, Dec 12, 2019 16:50+0000">2019-12-12</span>
+          IG &#169; 2019+ <a style="color: #81BEF7" href="https://chat.fhir.org/#narrow/stream/179189-uk"/>INTEROPen</a>.  Package careconnect.base.r4#4.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Dec 12, 2019 21:58+0000">2019-12-12</span>
           <br/>
           <span style="color: #FFFF77">
           Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
                  <a style="color: #81BEF7" href="qa.html">QA Report</a> |
-                 <a style="color: #81BEF7" target="_blank" href="https://fhir.hl7.org.uk/STU3/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
-                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/STU3/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
+                 <a style="color: #81BEF7" target="_blank" href="https://hl7.org.uk/fhir/history.html">Version History <img alt="external" style="vertical-align: baseline" src="external.png"/></a></a> |
+                 <a style="color: #81BEF7" rel="license" href="http://hl7.org/fhir/R4/license.html"><img style="border-style: none;" alt="CC0" src="cc0.png"/></a> |
                  <!--<a style="color: #81BEF7" href="todo.html">Search</a> | --> 
                  <a style="color: #81BEF7" target="_blank" href="http://gforge.hl7.org/gf/project/fhir/tracker/?action=TrackerItemAdd&amp;tracker_id=677">Propose a change <img alt="external" style="vertical-align: baseline" src="external.png"/></a>
           </span>

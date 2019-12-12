@@ -20,16 +20,16 @@
          </ul> 
       </div>
    </text>
-   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-EmergencyCareDischargeStatus-1"></url>
+   <url value="https://hl7.org.uk/fhir/ValueSet/CareConnect-EmergencyCareDischargeStatus-1"></url>
    <version value="3.0.0"></version>
    <name value="Care Connect Emergency Care Discharge Status"></name>
    <status value="draft"></status>
    <date value="2018-11-14T00:00:00+00:00"></date>
-   <publisher value="HL7 UK"></publisher>
+   <publisher value="INTEROpen"></publisher>
    <contact>
       <telecom>
          <system value="other"></system>
-         <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
+         <value value="https://interopen.ryver.com/"></value>
       </telecom>
    </contact>
    <description value="A code from the SNOMED Clinical Terminology UK coding system that describes the status of the Patient on discharge from an Emergency Care Department. Captures whether treatment took place within the ED, if the patient was streamed to another service or if the patient left before treatment was complete. Any code from the SNOMED CT UK 'Emergency care discharge status' subset with subset original id 75041000000135; the corresponding SNOMED CT UK Refset fully specified name is 'Emergency care discharge status simple reference set (foundation metadata concept)' with Refset Id 999003021000000104."></description>

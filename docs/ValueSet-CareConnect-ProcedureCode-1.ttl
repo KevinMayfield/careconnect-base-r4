@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1> a fhir:ValueSet;
+<https://hl7.org.uk/fhir/ValueSet/CareConnect-ProcedureCode-1> a fhir:ValueSet;
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "CareConnect-ProcedureCode-1"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Procedure Code</h2><div><p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure| OR &lt;&lt;129125009 |Procedure with explicit context|).</p>\n</div><p><b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.</p><p>This value set includes codes from the following code systems:</p><ul><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where constraint  =  (&lt;&lt;71388002 |Procedure| OR &lt;&lt;129125009 |Procedure with explicit context|)</li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Care Connect Procedure Code</h2>\n         <div>\n            <p>A code from the SNOMED Clinical Terminology UK with the expression (&lt;&lt;71388002 |Procedure| OR &lt;&lt;129125009 |Procedure with explicit context|).</p> \n         </div>\n         <p>\n            <b>Copyright Statement:</b> This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement.\n         </p>\n         <p>This value set includes codes from the following code systems:</p>\n         <ul>\n            <li>Include codes from \n               <a href=\"http://www.snomed.org/\">\n                  <code>http://snomed.info/sct</code>\n               </a> where constraint  =  (&lt;&lt;71388002 |Procedure| OR &lt;&lt;129125009 |Procedure with explicit context|)\n            </li>\n         </ul>\n      </div>"
   ];
-  fhir:ValueSet.url [ fhir:value "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1"];
-  fhir:ValueSet.version [ fhir:value "3.0.0"];
+  fhir:ValueSet.url [ fhir:value "https://hl7.org.uk/fhir/ValueSet/CareConnect-ProcedureCode-1"];
+  fhir:ValueSet.version [ fhir:value "4.0.0"];
   fhir:ValueSet.name [ fhir:value "Care Connect Procedure Code"];
   fhir:ValueSet.status [ fhir:value "draft"];
   fhir:ValueSet.date [ fhir:value "2018-11-01T00:00:00+00:00"^^xsd:dateTime];
-  fhir:ValueSet.publisher [ fhir:value "HL7 UK"];
+  fhir:ValueSet.publisher [ fhir:value "INTEROPen"];
   fhir:ValueSet.contact [
      fhir:index 0;
      fhir:ContactDetail.telecom [
@@ -51,7 +51,7 @@
 
 # - ontology header ------------------------------------------------------------
 
-<https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ProcedureCode-1.ttl> a owl:Ontology;
+<https://hl7.org.uk/fhir/ValueSet/CareConnect-ProcedureCode-1.ttl> a owl:Ontology;
   owl:imports fhir:fhir.ttl .
 
 # -------------------------------------------------------------------------------------

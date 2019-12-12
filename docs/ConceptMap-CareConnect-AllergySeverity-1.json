@@ -3,14 +3,14 @@
   "id": "CareConnect-AllergySeverity-1",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Concept Map - Allergy Severity (https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergySeverity-1)</h2><p>Mapping from <a href=\"valueset-CareConnect-ReactionEventSeverity-1.html\">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReactionEventSeverity-1</a> to <a href=\"valueset-CareConnect-AllergySeverity-1.html\">https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1</a></p><p>DRAFT. Published on 14 Nov 2018, 00:00:00 by HL7 UK (). Copyright © 2016 HL7 UK</p><div><p>A Concept Map from ValueSet Reaction Event Severity to Allergy Severity to aid interpretation.</p>\n</div><br/><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Destination Code</b></td></tr><tr><td>mild</td><td>equivalent</td><td>255604002 (Mild)</td></tr><tr><td>moderate</td><td>equivalent</td><td>6736007 (Moderate)</td></tr><tr><td>severe</td><td>equivalent</td><td>24484000 (Severe)</td></tr><tr><td>severe</td><td>equivalent</td><td>442452003 (Life threatening severity)</td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">\n         <h2>Concept Map - Allergy Severity (https://hl7.org.uk/fhir/ConceptMap/CareConnect-AllergySeverity-1)</h2>\n         <p>Mapping from \n            <a href=\"valueset-CareConnect-ReactionEventSeverity-1.html\">https://hl7.org.uk/fhir/ValueSet/CareConnect-ReactionEventSeverity-1</a> to \n            <a href=\"valueset-CareConnect-AllergySeverity-1.html\">https://hl7.org.uk/fhir/ValueSet/CareConnect-AllergySeverity-1</a>\n         </p>\n         <p>DRAFT. Published on 14 Nov 2018, 00:00:00 by INTEROpen (). Copyright © 2016 HL7 UK</p>\n         <div>\n            <p>A Concept Map from ValueSet Reaction Event Severity to Allergy Severity to aid interpretation.</p> \n         </div>\n         <br/>\n         <table class=\"grid\">\n            <tr>\n               <td>\n                  <b>Source Code</b>\n               </td>\n               <td>\n                  <b>Relationship</b>\n               </td>\n               <td>\n                  <b>Destination Code</b>\n               </td>\n            </tr>\n            <tr>\n               <td>mild</td>\n               <td>equivalent</td>\n               <td>255604002 (Mild)</td>\n            </tr>\n            <tr>\n               <td>moderate</td>\n               <td>equivalent</td>\n               <td>6736007 (Moderate)</td>\n            </tr>\n            <tr>\n               <td>severe</td>\n               <td>equivalent</td>\n               <td>24484000 (Severe)</td>\n            </tr>\n            <tr>\n               <td>severe</td>\n               <td>equivalent</td>\n               <td>442452003 (Life threatening severity)</td>\n            </tr>\n         </table>\n      </div>"
   },
-  "url": "https://fhir.hl7.org.uk/STU3/ConceptMap/CareConnect-AllergySeverity-1",
-  "version": "3.0.0",
+  "url": "https://hl7.org.uk/fhir/ConceptMap/CareConnect-AllergySeverity-1",
+  "version": "4.0.0",
   "name": "Concept Map - Allergy Severity",
   "status": "draft",
   "date": "2018-11-14T00:00:00+00:00",
-  "publisher": "HL7 UK",
+  "publisher": "INTEROPen",
   "contact": [
     {
       "telecom": [
@@ -33,8 +33,8 @@
     }
   ],
   "copyright": "Copyright © 2016 HL7 UK",
-  "sourceUri": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-ReactionEventSeverity-1",
-  "targetUri": "https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-AllergySeverity-1",
+  "sourceUri": "https://hl7.org.uk/fhir/ValueSet/CareConnect-ReactionEventSeverity-1",
+  "targetUri": "https://hl7.org.uk/fhir/ValueSet/CareConnect-AllergySeverity-1",
   "group": [
     {
       "source": "http://hl7.org/fhir/reaction-event-severity",

@@ -20,16 +20,16 @@
          </ul> 
       </div>
    </text>
-   <url value="https://fhir.hl7.org.uk/STU3/ValueSet/CareConnect-MedicationForm-1"></url>
+   <url value="https://hl7.org.uk/fhir/ValueSet/CareConnect-MedicationForm-1"></url>
    <version value="3.0.0"></version>
    <name value="Care Connect Medication Form"></name>
    <status value="draft"></status>
    <date value="2018-11-01T00:00:00+00:00"></date>
-   <publisher value="HL7 UK"></publisher>
+   <publisher value="INTEROpen"></publisher>
    <contact>
       <telecom>
          <system value="other"></system>
-         <value value="https://chat.fhir.org/#narrow/stream/179189-uk"></value>
+         <value value="https://interopen.ryver.com/"></value>
       </telecom>
    </contact>
    <description value="A code from the SNOMED Clinical Terminology UK coding system that describes a medication dose form. These will form part of the NHS dm+d. Any code from the SNOMED CT UK 'NHS dm+d Dose Form' subset with subset original id 837201000001137; the corresponding SNOMED CT UK Refset fully specified name is 'National Health Service dictionary of medicines and devices dose form simple reference set (foundation metadata concept)' with Refset Id 999000781000001107."></description>

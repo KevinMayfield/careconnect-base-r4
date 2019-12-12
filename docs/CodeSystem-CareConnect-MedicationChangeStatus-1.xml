@@ -3,15 +3,57 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="CareConnect-MedicationChangeStatus-1"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Medication Change Status</h2><div><p>A CodeSystem to identify the change status of a medication.</p>
-</div><p><b>Copyright Statement:</b> Copyright © 2016 HL7 UK</p><p>This code system https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1 defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">Continued<a name="CareConnect-MedicationChangeStatus-1-Continued"> </a></td><td/></tr><tr><td style="white-space:nowrap">Added<a name="CareConnect-MedicationChangeStatus-1-Added"> </a></td><td/></tr><tr><td style="white-space:nowrap">Amended<a name="CareConnect-MedicationChangeStatus-1-Amended"> </a></td><td/></tr><tr><td style="white-space:nowrap">On-hold<a name="CareConnect-MedicationChangeStatus-1-On-hold"> </a></td><td/></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml">
+         <h2>Care Connect Medication Change Status</h2>
+         <div>
+            <p>A CodeSystem to identify the change status of a medication.</p> 
+         </div>
+         <p>
+            <b>Copyright Statement:</b> Copyright © 2016 HL7 UK
+         </p>
+         <p>This code system https://hl7.org.uk/fhir/CodeSystem/CareConnect-MedicationChangeStatus-1 defines the following codes:</p>
+         <table class="codes">
+            <tr>
+               <td style="white-space:nowrap">
+                  <b>Code</b>
+               </td>
+               <td>
+                  <b>Definition</b>
+               </td>
+            </tr>
+            <tr>
+               <td style="white-space:nowrap">Continued
+                  <a name="CareConnect-MedicationChangeStatus-1-Continued"> </a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="white-space:nowrap">Added
+                  <a name="CareConnect-MedicationChangeStatus-1-Added"> </a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="white-space:nowrap">Amended
+                  <a name="CareConnect-MedicationChangeStatus-1-Amended"> </a>
+               </td>
+               <td/>
+            </tr>
+            <tr>
+               <td style="white-space:nowrap">On-hold
+                  <a name="CareConnect-MedicationChangeStatus-1-On-hold"> </a>
+               </td>
+               <td/>
+            </tr>
+         </table>
+      </div>
   </text>
-  <url value="https://fhir.hl7.org.uk/STU3/CodeSystem/CareConnect-MedicationChangeStatus-1"/>
-  <version value="3.0.0"/>
+  <url value="https://hl7.org.uk/fhir/CodeSystem/CareConnect-MedicationChangeStatus-1"/>
+  <version value="4.0.0"/>
   <name value="Care Connect Medication Change Status"/>
   <status value="draft"/>
   <date value="2018-11-14T00:00:00+00:00"/>
-  <publisher value="HL7 UK"/>
+  <publisher value="INTEROPen"/>
   <contact>
     <telecom>
       <system value="other"/>
